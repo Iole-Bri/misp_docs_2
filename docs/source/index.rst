@@ -13,7 +13,7 @@ Welcome to misp_docs's documentation!
    src/misp_description.md
    src/misp_docker.md
    src/misp_vagrant.md
-   src/welcome.md
+   src/lorem_ipsum.md
    
 
 Indices and tables
