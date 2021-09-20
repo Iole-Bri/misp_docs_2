@@ -10,8 +10,11 @@ Welcome to misp_docs's documentation!
    :maxdepth: 1
    :caption: Contents:
 
+   src/misp_description.md
+   src/misp_docker.md
+   src/misp_vagrant.md
    src/welcome.md
-   src/misp.md
+   
 
 Indices and tables
 ==================
