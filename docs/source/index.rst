@@ -11,6 +11,7 @@ Welcome to misp_docs's documentation!
    :caption: Contents:
 
    src/welcome.md
+   src/misp.md
 
 Indices and tables
 ==================
