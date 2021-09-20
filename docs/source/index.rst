@@ -14,6 +14,8 @@ Welcome to misp_docs's documentation!
    src/misp_docker.md
    src/misp_vagrant.md
    src/lorem_ipsum.md
+   src/test.md
+
    
 
 Indices and tables
