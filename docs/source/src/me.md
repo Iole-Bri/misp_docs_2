@@ -1,3 +1,3 @@
 # Petibonum Presentation
 
-![](img/Petibonum.jpeg =100x20)
+![](img/Petibonum_30.jpeg)
