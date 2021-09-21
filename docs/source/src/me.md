@@ -1,3 +1,3 @@
 # Petibonum Presentation
 
-![image](src/img/Petibonum.jpeg)
+![image](img/Petibonum.jpeg)
