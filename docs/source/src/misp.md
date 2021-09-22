@@ -1,4 +1,4 @@
-# ![](img/misp_25.png) Misp Description
+# ![](img/misp_25.png) Misp
 ## Misp Vagrant
 ### 1 - Création d'un user _misp_
 

@@ -14,6 +14,7 @@ Welcome to Petibonum_docs's documentation!
    src/misp.md
    src/linux.md
    src/splunk.md
+   src/thehive.md
    src/pentest_AD.md
    
 
