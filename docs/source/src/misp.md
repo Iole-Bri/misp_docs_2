@@ -33,8 +33,10 @@ Installation de VirtualBow et vagrant :
         <br/>```misp$ cd misp-vagrant/```
         <br/>```misp$ git pull origin master```
         <br/>```misp$ vagrant up```
+    
     <br/>Si vous recontrez l'erreur suivante : 
     ![](img/erreur_vagrant_up.png)
+    
     <br/>Alors, modifier le fichier suivant _Vagrantfile_ (repo ./MISP/misp-vagrant/.):
         <br/>```misp$ sudo vim Vagrantfile```
     <br/>Modifier la ligne suivante :
@@ -42,7 +44,7 @@ Installation de VirtualBow et vagrant :
     <br/> par la ligne suivante :
         <br/>```config.vm.network :forwarded_port, guest: 6666, host: 1234```
     <br/>Puis relancer :
-        <br/>```misp$ vagrant up```
+    <br/>```misp$ vagrant up```
 
 
 * Installation de MISP Vagrant sans l'environement de développement  
