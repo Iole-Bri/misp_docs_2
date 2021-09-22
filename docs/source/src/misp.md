@@ -7,7 +7,7 @@
 Suivre les instructions de création d'un nouveau user.  
 Sur sa machine, se connecter au user _misp_ :   
 ```misp$ su - misp```  
-```misp$ mot de passe : "votre mot de passe"```  
+<br/>```misp$ mot de passe : "votre mot de passe"```  
 
 ### 2 - Cloner et installer MISP
 
