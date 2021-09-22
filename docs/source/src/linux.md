@@ -1,1 +1,1 @@
-# []{img/debian_25.png} Linux 
+# ![]{img/debian_25.png} Linux 
