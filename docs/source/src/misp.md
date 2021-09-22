@@ -62,6 +62,13 @@ Dès que l'installation de MISP Vagrant (mode développement ou non) est faîte,
 
 ![](img/misp_connexion.png)
 
+* Mot de Passe
+
+Lors du lancement de MISP avec la commande ```vagrant up```, la liste des mot de passe est disponible en fin de lancement : 
+
+![](img/misp_mdp.png)
+
+
 * Connexion
 
 ![](img/misp_connexion_2.png)
