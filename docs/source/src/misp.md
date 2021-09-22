@@ -6,14 +6,14 @@
 
 Suivre les instructions de création d'un nouveau user.  
 Sur sa machine, se connecter au user _misp_ :   
-```misp$ su - misp```  
-<br/>```misp$ mot de passe : "votre mot de passe"```  
+<br/> ```misp$ su - misp```  
+<br/> ```misp$ mot de passe : "votre mot de passe"```  
 
 ### 2 - Cloner et installer MISP
 
 Aller sur [MISP](https://github.com/MISP/MISP) :  
-```misp$ git clone https://github.com/MISP/MISP.git```  
-```misp$ cd MISP/```  
+<br/> ```misp$ git clone https://github.com/MISP/MISP.git```  
+<br/> ```misp$ cd MISP/```  
 Installation des submodules :  
 ```misp$ git submodule init```  
 ```misp$ git submodule update```  
