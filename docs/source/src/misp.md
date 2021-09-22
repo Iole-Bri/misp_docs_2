@@ -2,7 +2,7 @@
 ## Misp Vagrant
 ### 1 - Création d'un user _misp_
 
-    ```misp$ sudo adduser misp```  
+```misp$ sudo adduser misp```  
 
 Suivre les instructions de création d'un nouveau user.  
 
@@ -24,7 +24,7 @@ Installation des submodules :
 
 Installation de VirtualBow et vagrant :  
     <br/> ```misp$ sudo apt-get install virtualbox vagrant```  
-        <br/>Si l'installation de VirtualBox est en échec, redirigez-vous vers [VirtualBox](https://www.virtualbox.org/wiki/Downloads).  
+    <br/>Si l'installation de VirtualBox est en échec, redirigez-vous vers [VirtualBox](https://www.virtualbox.org/wiki/Downloads).  
 
 * Déploiement de MISP Vagrant  
     Rendez-vous sur le repo MISP/        
@@ -33,6 +33,17 @@ Installation de VirtualBow et vagrant :
         <br/>```misp$ cd misp-vagrant/```
         <br/>```misp$ git pull origin master```
         <br/>```misp$ vagrant up```
+    <br/>Si vous recontrez l'erreur suivante : 
+    ![](img/erreur_vagrant_up.png)
+    <br/>Alors, modifier le fichier suivant _Vagrantfile_ (repo ./MISP/misp-vagrant/.):
+        <br/>```misp$ sudo vim Vagrantfile```
+    <br/>Modifier la ligne suivante :
+        <br/>```config.vm.network :forwarded_port, guest: 6666, host: 6666```
+    <br/> par la ligne suivante :
+        <br/>```config.vm.network :forwarded_port, guest: 6666, host: 1234```
+    <br/>Puis relancer :
+        <br/>```misp$ vagrant up```
+
 
 * Installation de MISP Vagrant sans l'environement de développement  
 
