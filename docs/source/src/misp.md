@@ -1,4 +1,4 @@
-# (logo MISP) Misp Description
+# ![](img/misp.png) Misp Description
 
 [MISP](https://www.misp-project.org/features.html)
 ## Misp Vagrant
