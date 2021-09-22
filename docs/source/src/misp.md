@@ -57,6 +57,10 @@ Installation de VirtualBow et vagrant :
 ### 4 - Lancement de MISP
 
     Dès que l'installation de MISP Vagrant (mode développement ou non) est faîte, connecter vous à [misp_web](http://127.0.0.1:5000).
+
+## Mise à Jour de MISP
+
+
 ## Sources
 
 - [MISP](https://www.misp-project.org/features.html)  

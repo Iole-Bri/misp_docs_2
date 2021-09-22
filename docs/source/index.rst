@@ -13,6 +13,7 @@ Welcome to Petibonum_docs's documentation!
    src/me.md
    src/misp.md
    src/linux.md
+   src/splunk.md
    src/pentest_AD.md
    
 
