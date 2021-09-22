@@ -8,4 +8,4 @@ Je suis étudiant en dernière année de CyberDéfense à l'ENSIBS à Vannes.
 Je suis en paralèle de ces études, en alternance dans un groupe Bancaire au sein duquel j'appartiens à l'équipe de Test d'Intrusion.
 ## CV
 
-Lien CV 
+[CV-Linkedin](https://www.linkedin.com/in/eloi-bri%C3%A8re-66981a10b/)
