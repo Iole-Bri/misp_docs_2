@@ -1,3 +1,1 @@
-# Petibonum Presentation
-
-![](img/Petibonum_30.jpeg)
+# ![](img/Petibonum_10.jpeg) Petibonum Presentation
