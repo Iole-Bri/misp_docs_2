@@ -12,10 +12,11 @@ Welcome to Petibonum_docs's documentation!
 
    src/me.md
    src/misp.md
+   src/metasploit.md
    src/linux.md
    src/splunk.md
    src/thehive.md
-   src/pentest_AD.md
+   src/pentest.md
    
 
 Indices and tables
