@@ -1,1 +1,1 @@
-# (logo splunk) Splunk 
+# ![](img/splunk_25.png) Splunk 

@@ -1,1 +1,1 @@
-# (logo the hive) The Hive
+# ![](img/thehive_25.png) The Hive
