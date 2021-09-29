@@ -11,6 +11,7 @@ Welcome to Petibonum_docs's documentation!
    :caption: Contents:
 
    src/me.md
+   src/forensic.md
    src/misp.md
    src/metasploit.md
    src/linux.md
