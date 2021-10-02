@@ -1,4 +1,4 @@
 # Les Renseignements
 
-!![](img/renseignement.png)
+![](img/renseignement.png)
 
