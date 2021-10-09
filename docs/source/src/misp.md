@@ -7,13 +7,13 @@
 ## Misp Vagrant
 ### 1 - Création d'un user _misp_
 
-```misp$ sudo adduser misp```  
+```user$ sudo adduser misp```  
 
 Suivre les instructions de création d'un nouveau user.  
 
 Sur sa machine, se connecter au user _misp_ :
-    <br/>```misp$ su - misp```  
-    <br/>```misp$ mot de passe : "votre mot de passe"```  
+    <br/>```user$ su - misp```  
+    <br/>```user$ mot de passe : "votre mot de passe"```  
 
 ### 2 - Cloner et installer MISP
 
