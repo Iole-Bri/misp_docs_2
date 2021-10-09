@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Misp_docs'
+project = 'Petibonum Docs'
 copyright = 'Eloi BRIERE'
 author = 'Eloi BRIERE'
 
