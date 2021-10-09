@@ -28,6 +28,13 @@ Vérification de la création de l'image :
 <br/>```sudo docker image ls```
 <br/> Mettre une image du résultat de la commande ci-dessus :
 
+    REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
+    <none>                   <none>    14f7a4289e50   4 minutes ago    114MB
+    pentest_img              latest    e9c44ba94204   14 minutes ago   1.02GB
+    <none>                   <none>    d6a75ea21da0   14 minutes ago   1.02GB
+    <none>                   <none>    142d08b79bec   19 minutes ago   168MB
+    kalilinux/kali-rolling   latest    d4bd98a89b78   5 days ago       126MB
+    debian                   buster    9e1a64aca99c   11 days ago      114MB
 #### 3. Run Container
 
 ```sudo docker run --name nmap_cont --rm -i -t nmap bash```
@@ -36,6 +43,14 @@ Vérification de la création de l'image :
 <br/>```sudo docker container ls```
 <br/> Mettre une image du résultat de la commande ci-dessus :
 
+    CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS     NAMES
+    a49cd245b80d   14f7a4289e50   "/bin/sh -c 'apt-get…"   5 minutes ago   Up 5 minutes             dreamy_mendeleev    
+
 La commande final "bash" permet d'ouvrir un shell root du container.
+
+## Ports en écoute sur la machine
+
+```sudo netstat -tulpn | grep LISTEN```
+
 
 
