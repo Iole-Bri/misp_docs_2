@@ -22,7 +22,7 @@ FROM kalilinux/kali-rolling
 
 #### 2. Build Image
 
-```sudo docker build -t nmap -f Dockerfile```
+```sudo docker build -t nmap -f Dockerfile .```
 
 Vérification de la création de l'image :
 <br/>```sudo docker image ls```
