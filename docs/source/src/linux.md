@@ -15,18 +15,16 @@ Help : pour MISP
 
 ```vim Dockerfile```
 
-FROM kalilinux/kali-rolling
-<br/>RUN apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get clean
-<br/>RUN apt-get -y install nmap
-<br/>CMD ["/bin/bash"]
+    FROM kalilinux/kali-rolling
+    RUN apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get clean
+    RUN apt-get -y install nmap
+    CMD ["/bin/bash"]
 
 #### 2. Build Image
 
 ```sudo docker build -t nmap -f Dockerfile .```
 
-Vérification de la création de l'image :
-<br/>```sudo docker image ls```
-<br/> Mettre une image du résultat de la commande ci-dessus :
+Vérification de la création de l'image : ```sudo docker image ls```
 
     REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
     <none>                   <none>    14f7a4289e50   4 minutes ago    114MB
@@ -39,9 +37,7 @@ Vérification de la création de l'image :
 
 ```sudo docker run --name nmap_cont --rm -i -t nmap bash```
 
-Vérification de la création de l'image :
-<br/>```sudo docker container ls```
-<br/> Mettre une image du résultat de la commande ci-dessus :
+Vérification de la création de l'image : ```sudo docker container ls```
 
     CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS         PORTS     NAMES
     a49cd245b80d   14f7a4289e50   "/bin/sh -c 'apt-get…"   5 minutes ago   Up 5 minutes             dreamy_mendeleev    
