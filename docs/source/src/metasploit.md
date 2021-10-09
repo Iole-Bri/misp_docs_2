@@ -2,6 +2,6 @@
 
 ## Principale commandes
 
-    ```msf$ search ...```
-    ```msf$ use ...```
-    ```msf$ info ...```
+    msf$ search ...
+    msf$ use ...
+    msf$ info ...
