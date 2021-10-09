@@ -15,7 +15,7 @@ Help : pour MISP
 
 ```vim Dockerfile```
 
-<br/>FROM kalilinux/kali-rolling
+FROM kalilinux/kali-rolling
 <br/>RUN apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get clean
 <br/>RUN apt-get -y install nmap
 <br/>CMD ["/bin/bash"]
@@ -24,7 +24,7 @@ Help : pour MISP
 
 ```sudo docker build -t nmap -f Dockerfile```
 
-<br/>Vérification de la création de l'image :
+Vérification de la création de l'image :
 <br/>```sudo docker image ls```
 <br/> Mettre une image du résultat de la commande ci-dessus :
 
@@ -32,7 +32,7 @@ Help : pour MISP
 
 ```sudo docker run --name nmap_cont --rm -i -t nmap bash```
 
-<br/>Vérification de la création de l'image :
+Vérification de la création de l'image :
 <br/>```sudo docker container ls```
 <br/> Mettre une image du résultat de la commande ci-dessus :
 
