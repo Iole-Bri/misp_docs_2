@@ -44,6 +44,15 @@ Vérification de la création de l'image : ```sudo docker container ls```
 
 La commande final "bash" permet d'ouvrir un shell root du container.
 
+#### 4. Save Container 
+
+```sudo docker ps```
+```sudo docker commit -p <id_container> <backup_name>```
+```sudo docker save -o ~/<backup_name>.tar <backup_name>```
+
+#### 5. Restore Container
+
+```sudo docker load -i ~/<backup_name>.tar```
 ## Ports en écoute sur la machine
 
 ```sudo netstat -tulpn | grep LISTEN```
