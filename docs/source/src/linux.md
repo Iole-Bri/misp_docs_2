@@ -58,4 +58,6 @@ La commande final "bash" permet d'ouvrir un shell root du container.
 ```sudo netstat -tulpn | grep LISTEN```
 
 
+## Config prompt PS1 .bashrc
 
+[Prompt Generator](https://scriptim.github.io/bash-prompt-generator/)
