@@ -16,6 +16,7 @@ Welcome to Petibonum_docs's documentation!
    src/metasploit.md
    src/linux.md
    src/splunk.md
+   src/cortex.md
    src/thehive.md
    src/pentest.md
    src/renseignement.md
