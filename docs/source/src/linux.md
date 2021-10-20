@@ -71,3 +71,17 @@ La commande final "bash" permet d'ouvrir un shell root du container.
 ![](img/tmux.png)
 
 [Tmux Cheat Sheet](https://acloudguru.com/blog/engineering/tmux-cheat-sheet?utm_source=legacyla&utm_medium=redirect&utm_campaign=one_platform)
+
+## FTP connexion
+
+    ┌──(root💀b545f5615cd0)-[~]
+    └─# ftp 10.10.54.235
+    Connected to 10.10.54.235.
+    220 (vsFTPd 3.0.3)
+    Name (10.10.54.235:root): anonymous
+    230 Login successful.
+    Remote system type is UNIX.
+    Using binary mode to transfer files.
+    ftp> pas
+    Passive mode on.
+    ftp>
