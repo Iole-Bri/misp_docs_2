@@ -69,3 +69,5 @@ La commande final "bash" permet d'ouvrir un shell root du container.
 ## Tmux
 
 ![](img/tmux.jpeg)
+
+[Tmux Cheat Sheet](https://acloudguru.com/blog/engineering/tmux-cheat-sheet?utm_source=legacyla&utm_medium=redirect&utm_campaign=one_platform)
