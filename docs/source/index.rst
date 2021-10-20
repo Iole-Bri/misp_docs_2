@@ -20,6 +20,7 @@ Welcome to Petibonum_docs's documentation!
    src/thehive.md
    src/pentest.md
    src/renseignement.md
+   src/osint.md
 
 Indices and tables
 ==================
