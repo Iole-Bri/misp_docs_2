@@ -65,3 +65,7 @@ La commande final "bash" permet d'ouvrir un shell root du container.
 ## Recherche FIND et redirection des erreurs
 
 ```find / -type f -name <file_name> 2>/dev/null```
+
+## Tmux
+
+![](img/tmux.jpeg)
