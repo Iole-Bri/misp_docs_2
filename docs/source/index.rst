@@ -21,6 +21,7 @@ Welcome to Petibonum_docs's documentation!
    src/pentest.md
    src/renseignement.md
    src/osint.md
+   src/ports.md
 
 Indices and tables
 ==================
