@@ -85,3 +85,9 @@ La commande final "bash" permet d'ouvrir un shell root du container.
     ftp> pas
     Passive mode on.
     ftp>
+
+## MD to PDF
+
+[PANDOC](https://pandoc.org/getting-started.html)
+
+```pandoc <origin>.md -f markdown -t pdf -s -o <destination>.pdf```
