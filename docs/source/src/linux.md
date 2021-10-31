@@ -53,6 +53,34 @@ La commande final "bash" permet d'ouvrir un shell root du container.
 #### 5. Restore Container
 
 ```sudo docker load -i ~/<backup_name>.tar```
+
+#### 6. Docker compose
+
+version: '3.9'
+services:
+
+    ## ORCHESTRATOR
+    ## SERVER
+    server:
+        build:
+        context: .
+        dockerfile: /home/petibonum/GOTHAM/Install/docker_gotham_server
+        deploy:
+        mode: replicated
+        replicas: 1
+
+    ## DATA-CENTER
+    dc:
+        build:
+        context: .
+        dockerfile: /home/petibonum/GOTHAM/Install/docker_gotham_dc
+        deploy:
+        mode: replicated
+        replicas: 1
+#### RUN Docker compose from image dockerfile
+
+```sudo docker-compose up --build```
+
 ## Ports en écoute sur la machine
 
 ```sudo netstat -tulpn | grep LISTEN```
