@@ -1,4 +1,4 @@
-# Les ports classiques :
+# Les ports classiques
  * 22   =   SSH
  * 80   =   HTTP
  * 111  =   RPCBIND
