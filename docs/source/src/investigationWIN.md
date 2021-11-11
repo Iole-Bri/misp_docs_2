@@ -19,3 +19,7 @@ The fastest way to open Local Users and Groups is to type **lusrmgr.msc** in the
 ![](img/user.png)
 
 Locate the Administrators option and double-click on it. The Administrator Properties window should appear, and when it does, you’ll see what accounts have administrative privileges in the Members box.
+
+## Task Scheduled 
+
+![](img/task.png)
