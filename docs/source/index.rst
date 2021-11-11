@@ -15,6 +15,7 @@ Welcome to Petibonum_docs's documentation!
    src/forensic.md
    src/ftp.md
    src/hash.md
+   src/investigationWIN.md
    src/linux.md
    src/metasploit.md
    src/misp.md
