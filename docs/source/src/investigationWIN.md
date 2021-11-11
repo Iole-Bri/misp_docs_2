@@ -4,7 +4,7 @@
 
 ## Last logon time for <user>
 
-```net user  <user> | findstr /B /C:"Last logon"```
+```net user <user> | findstr /B /C:"Last logon"```
 
 ## Users with privilege
 
