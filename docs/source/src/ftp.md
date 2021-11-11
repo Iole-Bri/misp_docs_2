@@ -2,7 +2,7 @@
 
 ## Commandes
 
-    bye or close or quit	Terminates an FTP connection.
+    bye or close or quit : Terminates an FTP connection.
 
     cd : Changes the current working directory on the FTP host server.
 
