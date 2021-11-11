@@ -1,1 +1,1 @@
-# (logo osint) OSINT
+# OSINT

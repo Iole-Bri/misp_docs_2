@@ -1,3 +1,3 @@
-# (logo forensic) Forensic
+# Forensic
 
 ## Wireshark
