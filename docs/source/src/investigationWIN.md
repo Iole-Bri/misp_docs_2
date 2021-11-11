@@ -26,5 +26,7 @@ Locate the Administrators option and double-click on it. The Administrator Prope
 
 ## Windows first assign special privileges to a new logon
 
+[Source New Logon](https://docs.microsoft.com/fr-fr/windows/security/threat-protection/auditing/event-4672)
+
 ![](img/logon.png)
 
