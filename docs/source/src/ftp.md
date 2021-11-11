@@ -31,10 +31,16 @@
     site : Executes a site-specific command.
 
     type : Sets the file transfer mode: ASCII / Binary
+
+Source : [FTP commands](https://www.ibm.com/docs/en/scbn?topic=SSRJDU/gateway_services/ftp_globalec/SCN_Summary_of_FTP_Client_Commands_b.html)
 ## Connexion :
     ```ftp <ip>````
     ```<username>````
     ```<password>````
 
 ## Télécharger depuis le server vers la machine :
-``````
+
+```curl -u <user>:<password> -T <file> ftp://<ip>/``` 
+
+Source : [FTP upload](https://blog.desdelinux.net/en/send-ftp-file-command-only/)
+
