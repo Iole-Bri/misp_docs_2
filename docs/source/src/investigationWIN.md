@@ -23,3 +23,8 @@ Locate the Administrators option and double-click on it. The Administrator Prope
 ## Task Scheduled 
 
 ![](img/task.png)
+
+## Windows first assign special privileges to a new logon
+
+![](img/logon.png)
+
