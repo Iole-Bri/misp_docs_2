@@ -2,6 +2,9 @@
 
 [TryhackMe](https://tryhackme.com/room/investigatingwindows)
 
+## System info
+
+```systeminfo```
 ## Last logon time for <user>
 
 ```net user <user> | findstr /B /C:"Last logon"```
@@ -29,4 +32,13 @@ Locate the Administrators option and double-click on it. The Administrator Prope
 [Source New Logon](https://docs.microsoft.com/fr-fr/windows/security/threat-protection/auditing/event-4672)
 
 ![](img/logon.png)
+
+## Fichier Host
+
+le fichier host est particulièrement utile puisqu’il stocke les noms d’hôtes et les adresses IP correspondantes. C’est lui qui est interrogé en premier avant une requête DNS sur les serveurs d’adresse du Web. Ainsi, le fichier host est un outil élémentaire pour un protocole réseau : il convertit les noms d’hôtes en adresses IP numériques. Or, le réseau ne peut fonctionner qu’avec ces adresses. Il est installé sur tous les systèmes d’exploitation courants pour PC, Mac et appareils mobiles. Seuls les administrateurs système peuvent modifier le fichier host. À chaque fois que vous visitez un site Web, votre appareil vérifie d’abord le fichier host pour trouver une entrée ou une règle correspondante pour la page.
+
+![](img/host.png)
+
+![](img/host_file.png)
+
 
