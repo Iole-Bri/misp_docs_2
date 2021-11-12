@@ -4,3 +4,4 @@
  * 111  =   RPCBIND
  * 443  =   HTTPS   
  * 21   =   FTP
+ * 1337 =   Trojan (malicious) --> [Source](https://www.speedguide.net/port.php?port=1337)
