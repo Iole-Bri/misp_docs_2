@@ -19,6 +19,7 @@ Welcome to Petibonum_docs's documentation!
    src/linux.md
    src/metasploit.md
    src/misp.md
+   src/nmap.md
    src/OSI.md
    src/osint.md
    src/Overpass2-Hacked.md
