@@ -11,7 +11,7 @@ Welcome to Petibonum_docs's documentation!
    :caption: Contents:
 
    src/me.md
-   src/assembly.md
+   src/assemby.md
    src/cortex.md
    src/forensic.md
    src/ftp.md
