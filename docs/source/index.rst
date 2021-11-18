@@ -11,6 +11,7 @@ Welcome to Petibonum_docs's documentation!
    :caption: Contents:
 
    src/me.md
+   src/arch.md
    src/assemby.md
    src/cortex.md
    src/forensic.md
@@ -30,6 +31,7 @@ Welcome to Petibonum_docs's documentation!
    src/RDP.md
    src/renseignement.md
    src/splunk.md
+   src/sql.md
    src/thehive.md
 
 Indices and tables
