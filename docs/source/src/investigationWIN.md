@@ -41,4 +41,6 @@ le fichier host est particulièrement utile puisqu’il stocke les noms d’hôt
 
 ![](img/host_file.png)
 
+## Windows functions
 
+* 
