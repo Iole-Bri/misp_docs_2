@@ -1,4 +1,5 @@
 # SQL Injection
 
-```asd',nickName='testnickname',email='hacked', password='password' where UID=1--```
-``````
+Exemple : 
+* ```asd',nickName='testnickname',email='hacked', password='password' where UID=1--```
+* ``````

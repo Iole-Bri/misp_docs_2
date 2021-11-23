@@ -13,6 +13,7 @@ Welcome to Petibonum_docs's documentation!
    src/me.md
    src/arch.md
    src/assemby.md
+   src/bloodhound.md
    src/cortex.md
    src/forensic.md
    src/ftp.md
