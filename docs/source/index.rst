@@ -32,6 +32,7 @@ Welcome to Petibonum_docs's documentation!
    src/radare2.md
    src/RDP.md
    src/renseignement.md
+   src/smb.md
    src/splunk.md
    src/sql.md
    src/thehive.md
