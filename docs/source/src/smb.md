@@ -1,7 +1,8 @@
 # SMB
 
 ## Connexion
-<br/>```smbclient //<ip>/**sharename**```
+    
+    ```smbclient //<ip>/**sharename**```
 
 ## Command
     Command 	            Description
