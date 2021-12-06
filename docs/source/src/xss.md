@@ -14,5 +14,13 @@ Insert in form the following lines :
     ```<!-- Normal comment--><p>Your comment goes here </p> <!--Malicious comment--><p><script>evilcod()</script></p> ```
 
 Results in source code :
-
 ![](img/xss1.png)
+
+## URL
+Here's a quick example of an URL with malicious javascript included:
+```<https://somewebsite.com/titlepage?id=> <script> evilcode() </script> ```
+
+Results in website :
+![](img/xss2.png)
+
+
