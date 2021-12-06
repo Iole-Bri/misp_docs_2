@@ -16,6 +16,12 @@ Insert in form the following lines :
 Results in source code :
 ![](img/xss1.png)
 
+Other example : 
+    ```<img src='LINK' onmouseover="alert('xss')"> ```
+![](img/xss3.png)
+
+
+
 ## URL
 Here's a quick example of an URL with malicious javascript included:
 ```<https://somewebsite.com/titlepage?id=> <script> evilcode() </script> ```
