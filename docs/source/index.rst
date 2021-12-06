@@ -36,6 +36,7 @@ Welcome to Petibonum_docs's documentation!
    src/splunk.md
    src/sql.md
    src/thehive.md
+   src/xss.md
 
 Indices and tables
 ==================
