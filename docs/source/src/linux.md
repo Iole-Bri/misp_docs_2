@@ -3,12 +3,6 @@
 ## Connexion wifi - command line
 
 [Source](https://linuxhint.com/3-ways-to-connect-to-wifi-from-the-command-line-on-debian/)
-
-## Créer une image ISO 
-
-Cette partie va me permettre de générer des images ISO à partir de fichiers et de dossiers.
-Help : pour MISP
-
 ## Dockerfile
 
 #### 1. Créer son Dockerfile
@@ -120,3 +114,12 @@ services:
 
 ```pandoc <origin>.md -f markdown -t pdf -s -o <destination>.pdf```
 ```pandoc <origin>.md -o <destination>.pdf```
+
+## Connexion dhclient
+```sudo dhclient -v -r eth0```
+```sudo dhclient -v eth0```
+```sudo ip a add <ip>/<mask> dev eth0 ```
+
+Fichiers à modifier :
+* /etc/resolv.conf (DNS google --> 8.8.8.8)
+* /etc/hosts 
