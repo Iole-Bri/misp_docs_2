@@ -87,13 +87,6 @@ services:
 ## Recherche FIND et redirection des erreurs
 
 ```find / -type f -name <file_name> 2>/dev/null```
-
-## Tmux
-
-![](img/tmux.png)
-
-[Tmux Cheat Sheet](https://acloudguru.com/blog/engineering/tmux-cheat-sheet?utm_source=legacyla&utm_medium=redirect&utm_campaign=one_platform)
-
 ## FTP connexion
 
     ┌──(root💀b545f5615cd0)-[~]
