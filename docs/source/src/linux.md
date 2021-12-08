@@ -113,6 +113,9 @@ services:
 ```sudo dhclient -v eth0```
 ```sudo ip a add <ip>/<mask> dev eth0 ```
 
+Supprimer une interface :
+
+
 Fichiers à modifier :
 * /etc/resolv.conf (DNS google --> 8.8.8.8)
 * /etc/hosts 
