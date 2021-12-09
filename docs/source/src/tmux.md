@@ -6,13 +6,13 @@
 
 ```bash=
 Windows (tabs) afer prefix :
-    <br/>c  create window
-    <br/>w  list windows
-    <br/>n  next window
-    <br/>p  previous window
-    <br/>f  find window
-    <br/>,  name window
-    <br/>&  kill window
+    c  create window
+    w  list windows
+    n  next window
+    p  previous window
+    f  find window
+    ,  name window
+    &  kill window
 ```
 [Tmux Cheat Sheet n°2](https://gist.github.com/MohamedAlaa/2961058)
 
