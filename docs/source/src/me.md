@@ -12,6 +12,4 @@ Je suis en paralèle de ces études, en alternance dans un groupe Bancaire au se
 
 ## TryHackMe
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/petibonum.minus.png" alt="TryHackMe">
-
 <script src="https://tryhackme.com/badge/414305"></script>
