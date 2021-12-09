@@ -15,7 +15,8 @@
     volatility -f MEMORY_FILE.raw --profile=PROFILE hivelist                                            #dump the hives. We are interested in 2 offsets: SYSTEM (-y) and SAM (-s)
     volatility -f MEMORY_FILE.raw --profile=PROFILE hashdump -y <n°virt.> -s <n°virt.> >> hashes.txt    #Find hashes
     volatility -f MEMORY_FILE.raw --profile=PROFILE consoles                                            #extract command history
-    volatility -f MEMORY_FILE.raw --profile=PROFILE shutdowntime                                        #last shutdown machine 
+    volatility -f MEMORY_FILE.raw --profile=PROFILE shutdowntime                                        #last shutdown machine
+    volatility -f MEMORY_FILE.raw --profile=PROFILE truecryptpassphrase                                 #passphrase partition truecrypt 
 ```
 
 ![](img/volatility.png)
