@@ -5,13 +5,13 @@
 [Tmux Cheat Sheet n°1](https://acloudguru.com/blog/engineering/tmux-cheat-sheet?utm_source=legacyla&utm_medium=redirect&utm_campaign=one_platform)
 
 Windows (tabs) afer prefix :
-    c  create window
-    w  list windows
-    n  next window
-    p  previous window
-    f  find window
-    ,  name window
-    &  kill window
+    <br/>c  create window
+    <br/>w  list windows
+    <br/>n  next window
+    <br/>p  previous window
+    <br/>f  find window
+    <br/>,  name window
+    <br/>&  kill window
 
 [Tmux Cheat Sheet n°2](https://gist.github.com/MohamedAlaa/2961058)
 
