@@ -17,3 +17,5 @@
     volatility -f MEMORY_FILE.raw --profile=PROFILE consoles                                            #extract command history
     volatility -f MEMORY_FILE.raw --profile=PROFILE shutdowntime                                        #last shutdown machine 
 ```
+
+![](img/volatility.png)
