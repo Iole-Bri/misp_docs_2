@@ -16,7 +16,10 @@
     volatility -f MEMORY_FILE.raw --profile=PROFILE hashdump -y <n°virt.> -s <n°virt.> >> hashes.txt    #Find hashes
     volatility -f MEMORY_FILE.raw --profile=PROFILE consoles                                            #extract command history
     volatility -f MEMORY_FILE.raw --profile=PROFILE shutdowntime                                        #last shutdown machine
-    volatility -f MEMORY_FILE.raw --profile=PROFILE truecryptpassphrase                                 #passphrase partition truecrypt 
+    volatility -f MEMORY_FILE.raw --profile=PROFILE truecryptpassphrase                                 #passphrase partition truecrypt
+    volatility -f MEMORY_FILE.raw --profile=PROFILE shellbags                                           #show last directory open
+    volatility -f victim.raw -p <malicious PID> --profile=Win7SP1x64 memdump <Directory to save the file> #dump memory of specific PID
+ 
 ```
 
 ![](img/volatility.png)
