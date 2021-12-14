@@ -1,19 +1,41 @@
 # Investigation Windows
 
+## Active Directory
+
+### Enum4linux
+[Source](https://www.kali.org/tools/enum4linux/)
 [TryhackMe](https://tryhackme.com/room/investigatingwindows)
 
+## Bloodhound
+
+    ```bash=
+    sudo apt install Bloodhound
+    ``` 
+-> install bloodhound
+<br/>```sudo neo4j console``` -> launch neo4j console
+<br/>http://localhost:7474/browser/ -> neo4j browser
+    <br/>change password 
+<br/>```sudo bloodhound``` -> launch bloodhound
+<br/>```git clone https://github.com/fox-it/BloodHound.py.git``` -> clone de bloodhound.py to import json file to map infra
+<br/>```sudo python3 bloodhound.py -u <user> -p <passwd> -c all -d <domain> -ns <ip>``` -> command line to import json file
 ## System info
 
-```systeminfo```
+    ```bash=
+    systeminfo
+    ```
 ## Last logon time for <user>
 
-```net user <user> | findstr /B /C:"Last logon"```
+    ```bash=
+    net user <user> | findstr /B /C:"Last logon"
+    ```
 
 ## Users with privilege
 
 ### CMD command line
 
-```net user <user>```
+    ```bash=
+    net user <user>
+    ```
 
 ### Using tool
 
@@ -40,7 +62,3 @@ le fichier host est particulièrement utile puisqu’il stocke les noms d’hôt
 ![](img/host.png)
 
 ![](img/host_file.png)
-
-## Windows functions
-
-* 

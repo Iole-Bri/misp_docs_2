@@ -1,7 +1,7 @@
 # FTP
-
 ## Connection anonymous
 
+    ```bash=
     ──(petibonum㉿kali)-[~/Pentest/TryhackMe/Startup]
     └─$ ftp 10.10.24.241
     Connected to 10.10.24.241.
@@ -12,7 +12,8 @@
     230 Login successful.
     Remote system type is UNIX.
     Using binary mode to transfer files.
-    ftp> 
+    ftp>
+    ```
 ## Commandes
 
     bye or close or quit : Terminates an FTP connection.
@@ -53,7 +54,9 @@ Source : [FTP commands](https://www.ibm.com/docs/en/scbn?topic=SSRJDU/gateway_se
 
 ## Télécharger depuis le server vers la machine :
 
-```curl -u <user>:<password> -T <file> ftp://<ip>/``` 
+```bash=
+curl -u <user>:<password> -T <file> ftp://<ip>/
+``` 
 
 Source : [FTP upload](https://blog.desdelinux.net/en/send-ftp-file-command-only/)
 

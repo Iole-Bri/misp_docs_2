@@ -1,1 +1,3 @@
 # OSI
+
+![](img/osi.jpg)

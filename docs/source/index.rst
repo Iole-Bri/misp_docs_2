@@ -11,10 +11,8 @@ Welcome to Petibonum_docs's documentation!
    :caption: Contents:
 
    src/me.md
-   src/AD.md
    src/arch.md
    src/assemby.md
-   src/bloodhound.md
    src/cortex.md
    src/forensic.md
    src/ftp.md
@@ -25,8 +23,6 @@ Welcome to Petibonum_docs's documentation!
    src/misp.md
    src/nmap.md
    src/OSI.md
-   src/osint.md
-   src/Overpass2-Hacked.md
    src/pentest.md
    src/ports.md
    src/radare2.md
