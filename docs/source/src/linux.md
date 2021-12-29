@@ -8,14 +8,11 @@
 #### 1. Créer son Dockerfile
 
 ```bash=
-vim Dockerfile`
-``
-
-    FROM kalilinux/kali-rolling
-    RUN apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get clean
-    RUN apt-get -y install nmap
-    CMD ["/bin/bash"]
-
+FROM kalilinux/kali-rolling
+RUN apt-get -y update && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get clean
+RUN apt-get -y install nmap
+CMD ["/bin/bash"]
+```
 #### 2. Build Image
 
 ```bash=
