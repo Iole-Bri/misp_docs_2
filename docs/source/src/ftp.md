@@ -1,19 +1,19 @@
 # FTP
 ## Connection anonymous
 
-    ```bash=
-    ──(petibonum㉿kali)-[~/Pentest/TryhackMe/Startup]
-    └─$ ftp 10.10.24.241
-    Connected to 10.10.24.241.
-    220 (vsFTPd 3.0.3)
-    Name (10.10.24.241:petibonum): anonymous
-    331 Please specify the password.
-    Password: anonymous
-    230 Login successful.
-    Remote system type is UNIX.
-    Using binary mode to transfer files.
-    ftp>
-    ```
+```bash=
+──(petibonum㉿kali)-[~/Pentest/TryhackMe/Startup]
+└─$ ftp 10.10.24.241
+Connected to 10.10.24.241.
+220 (vsFTPd 3.0.3)
+Name (10.10.24.241:petibonum): anonymous
+331 Please specify the password.
+Password: anonymous
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp>
+```
 ## Commandes
 
     bye or close or quit : Terminates an FTP connection.
@@ -48,9 +48,11 @@
 
 Source : [FTP commands](https://www.ibm.com/docs/en/scbn?topic=SSRJDU/gateway_services/ftp_globalec/SCN_Summary_of_FTP_Client_Commands_b.html)
 ## Connexion :
-    ```ftp <ip>````
-    ```<username>````
-    ```<password>````
+    ```bash=
+    ftp <ip>
+    <username>
+    <password>
+    ````
 
 ## Télécharger depuis le server vers la machine :
 
@@ -63,6 +65,8 @@ Source : [FTP upload](https://blog.desdelinux.net/en/send-ftp-file-command-only/
 ## Télécharger depuis la machine vers le serveur
 
     Se placer sur le serveur ftp : 
-    ```put <file>```
+    ```bash=
+    put <file>
+    ```
     OK
 

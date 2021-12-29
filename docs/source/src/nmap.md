@@ -10,27 +10,30 @@ Scan simple et rapide :
 Exemples : 
 * N°1 : TryHackMe -> [Ice Room](https://tryhackme.com/room/ice)
 
-    ```$ sudo nmap -sS -Pn -sV 10.10.188.70```
+    ```bash=
+    $ sudo nmap -sS -Pn -sV <ip>
+    ```
 
 * N°2 : TryHackMe -> [Ice Room](https://tryhackme.com/room/ice)
 
-    ```$ sudo nmap -sS -sC 10.10.188.70```
+    ```bash=
+    $ sudo nmap -sS -sC <ip>
+    ```
 
 * N°3 : TryHackMe -> [Kenobi Room](https://tryhackme.com/room/kenobi)
 
-    ```nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>```
-    ```nmap -p 139 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>```
+    ```bash=
+    nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>
+    nmap -p 139 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>
+    ```
 
 * N°4 : TryHackMe -> [Blue Room](https://tryhackme.com/room/blue)
     
-    ```nmap -sV -vv --script vuln 10.10.186.248```
+    ```bash=
+    nmap -sV -vv --script vuln <ip>
+    ```
 
     ![](img/port1.png)
 
     ![](img/port2.png)
-
-
-
     
-
-

@@ -1,7 +1,6 @@
 # Radare2
 
 ## Commands
-
 * ```r2 -d <file>``` : open debug mode
 * ```e asm.syntax=att``` : change syntax ('att' or 'intel')
 * ```aaa``` : analyse file

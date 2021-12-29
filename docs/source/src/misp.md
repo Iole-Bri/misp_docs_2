@@ -7,57 +7,78 @@
 ## Misp Vagrant
 ### 1 - Création d'un user _misp_
 
-```user$ sudo adduser misp```  
+```bash=
+user$ sudo adduser misp
+```  
 
 Suivre les instructions de création d'un nouveau user.  
 
 Sur sa machine, se connecter au user _misp_ :
-    <br/>```user$ su - misp```  
-    <br/>```user$ mot de passe : "votre mot de passe"```  
+```bash=
+user$ su - misp
+user$ mot de passe : "votre mot de passe"
+```  
 
 ### 2 - Cloner et installer MISP
 
 Aller sur [MISP](https://github.com/MISP/MISP) :  
-    <br/>```misp$ git clone https://github.com/MISP/MISP.git```  
-    <br/>```misp$ cd MISP/```  
+```bash=
+misp$ git clone https://github.com/MISP/MISP.git
+misp$ cd MISP/
+```  
 
 Installation des submodules :  
-    <br/>```misp$ git submodule init```  
-    <br/>```misp$ git submodule update```  
+```bash=
+misp$ git submodule init
+misp$ git submodule update
+```  
 
 ### 3 - Installer MISP Vagrant
 
 Installation de VirtualBow et vagrant :  
-    <br/> ```misp$ sudo apt-get install virtualbox vagrant```  
-    <br/>Si l'installation de VirtualBox est en échec, redirigez-vous vers [VirtualBox](https://www.virtualbox.org/wiki/Downloads).  
+```bash=
+misp$ sudo apt-get install virtualbox vagrant
+```  
+Si l'installation de VirtualBox est en échec, redirigez-vous vers [VirtualBox](https://www.virtualbox.org/wiki/Downloads).  
 
 * Déploiement de MISP Vagrant  
     Rendez-vous sur le repo MISP/        
-        <br/>```misp$ cd MISP/```
-        <br/>```misp$ git submodule update --init misp-vagrant```
-        <br/>```misp$ cd misp-vagrant/```
-        <br/>```misp$ git pull origin master```
-        <br/>```misp$ vagrant up```
+        ```bash= misp$ cd MISP/
+        misp$ git submodule update --init misp-vagrant
+        misp$ cd misp-vagrant/
+        misp$ git pull origin master
+        misp$ vagrant up
+        ```
     
     <br/>Si vous recontrez l'erreur suivante : 
     ![](img/erreur_vagrant_up.png)
 
     <br/>Alors, modifier le fichier suivant _Vagrantfile_ (repo ./MISP/misp-vagrant/.):
-        <br/>```misp$ sudo vim Vagrantfile```
+        ```bash=
+        misp$ sudo vim Vagrantfile
+        ```
     <br/>Modifier la ligne suivante :
-        <br/>```config.vm.network :forwarded_port, guest: 6666, host: 6666```
+        ```bash=
+        config.vm.network :forwarded_port, guest: 6666, host: 6666
+        ```
     <br/> par la ligne suivante :
-        <br/>```config.vm.network :forwarded_port, guest: 6666, host: 1234```
+        ```bash=
+        config.vm.network :forwarded_port, guest: 6666, host: 1234
+        ```
     <br/>Puis relancer :
-    <br/>```misp$ vagrant up```
+    ```bash=
+    misp$ vagrant up
+    ```
 
 * Installation de MISP Vagrant sans l'environement de développement  
 
     Aller sur [MISP Vagrant](https://github.com/MISP/misp-vagrant) :  
-        <br/>```misp$ git clone https://github.com/MISP/misp-vagrant.git```  
-        <br/>```misp$cd misp-vagrant/```  
-        <br/>```misp$ export MISP_ENV='demo'```  
-        <br/>```misp$ vagrant up```  
+        ```bash=
+        misp$ git clone https://github.com/MISP/misp-vagrant.git
+        misp$cd misp-vagrant/
+        misp$ export MISP_ENV='demo'
+        misp$ vagrant up
+        ```  
 
 ### 4 - Connexion à MISP
 
@@ -84,7 +105,9 @@ Lors du lancement de MISP avec la commande ```vagrant up```, la liste des mot de
 
 ### Vagrant Help
 
-<br/>```misp$ vagrant help```
+```bash=
+misp$ vagrant help
+```
 ![](img/vagrant_help.png)
 ## Mise à Jour de MISP
 

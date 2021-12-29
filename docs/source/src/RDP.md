@@ -4,5 +4,7 @@
 
 ## Connexion
 
-```xfreerdp /v:<ip> /u:<username>```
+```bash=
+xfreerdp /v:<ip> /u:<username>
+```
 
