@@ -157,7 +157,7 @@ sudo ip r add default <new_route_ip>
 ### Autoriser le Nat sur Nat et le port forwarding
 
 ```bash=
-vérifier que Eve peut bien ping Internet
+vérifier que la machine à rediriger peut bien ping Internet
 sudo sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
 reboot ou sysctl -w net.ipv4.ip_forward=1
 sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE (avec le nom de l'interface externe) (edited)
