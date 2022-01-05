@@ -21,5 +21,8 @@
     volatility -f victim.raw -p <malicious PID> --profile=Win7SP1x64 memdump <Directory to save the file> #dump memory of specific PID
  
 ```
+Cas pratique de Volatility
+```bash=
+
 
 ![](img/volatility.png)
