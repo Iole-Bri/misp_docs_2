@@ -149,7 +149,7 @@ sudo ip a add <ip>/<mask> dev eth0
 ```bash=
 sudo ip link delete <interface>
 ```
-### Changement de route
+### Changement de route linux
 Changement de route sur la machine à rediriger
 ```bash=
 sudo ip r add default <new_route_ip>
@@ -158,10 +158,11 @@ sudo ip r add default <new_route_ip>
 
 ```bash=
 vérifier que la machine à rediriger peut bien ping Internet
+
 sudo sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
-reboot ou sysctl -w net.ipv4.ip_forward=1
-sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE (avec le nom de l'interface externe) (edited)
+reboot ou sudo sysctl -w net.ipv4.ip_forward=1
+sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
 ```
 ### Fichiers important à modifier :
-* /etc/resolv.conf (DNS google --> 8.8.8.8)
+* /etc/resolv.conf (DNS google --> 8.8.8.8 + 1.1.1.1)
 * /etc/hosts 
