@@ -132,18 +132,36 @@ pandoc <origin>.md -o <destination>.pdf
 ```
 
 ## Connexion dhclient
+
+### Refaire la connexion DHCP
+
 ```bash=
 sudo dhclient -v -r eth0
 sudo dhclient -v eth0
+```
+### Ajouter une ip à l'interface eth0
+
+```bash=
 sudo ip a add <ip>/<mask> dev eth0
 ```
-
-Supprimer une interface :
+### Supprimer une interface :
 
 ```bash=
 sudo ip link delete <interface>
 ```
+### Changement de route
+Changement de route sur la machine à rediriger
+```bash=
+sudo ip r add default <new_route_ip>
+```
+### Autoriser le Nat sur Nat et le port forwarding
 
-Fichiers à modifier :
+```bash=
+vérifier que Eve peut bien ping Internet
+sudo sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
+reboot ou sysctl -w net.ipv4.ip_forward=1
+sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE (avec le nom de l'interface externe) (edited)
+```
+### Fichiers important à modifier :
 * /etc/resolv.conf (DNS google --> 8.8.8.8)
 * /etc/hosts 
