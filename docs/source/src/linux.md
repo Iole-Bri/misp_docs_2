@@ -166,3 +166,10 @@ sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
 ### Fichiers important à modifier :
 * /etc/resolv.conf (DNS google --> 8.8.8.8 + 1.1.1.1)
 * /etc/hosts 
+
+## Mounf disk image
+```bash=
+modprobe loop # Pour être sûr
+sudo ewfmount galaxy_S6_full_4K.E01 mnt # Forcement en sudo
+sudo mount -o ro,norecovery,offset=$((4096 * 1046784)),user=adam ./mnt/ewf1 ./userdata
+```
