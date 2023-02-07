@@ -20,6 +20,7 @@ Welcome to Petibonum_docs's documentation!
    src/influence.md
    src/investigationWIN.md
    src/linux.md
+   src/lvm.md
    src/metasploit.md
    src/misp.md
    src/nmap.md
